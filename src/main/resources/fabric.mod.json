@@ -5,23 +5,22 @@
     "description": "Fixes the Infinity Enchant and also makes it work together with Mending",
     "license": "MIT",
     "authors": [
-        {
-            "name": "Radient_Sora",
-            "contact": {
-                "homepage": "https://twitter.com/Radient_Sora"
-            }
-        },
-        {
-            "name": "UpcraftLP",
-            "contact": {
-                "homepage": "https://twitter.com/UpcraftLP"
-            }
-        }
+        "Fabian Roscher"
     ],
     "icon": "assets/infinityfix/icon.png",
     "side": "universal",
     "version": "${version}",
+    "environment": "*",
     "mixins": [
         "mixins.infinityfix.common.json"
-    ]
+    ],
+    "depends": {
+        "fabricloader": ">=0.13.3",
+        "fabric": "*",
+        "minecraft": "~1.18.2",
+        "java": ">=17"
+    },
+    "suggests": {
+        "another-mod": "*"
+    }
 }
