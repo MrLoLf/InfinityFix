@@ -6,5 +6,5 @@
 - Allows Infinity and Mending to be applied together
 
  
-Unoffical Fabric Mod port of [Infinity Fix (Fabric)](https://www.curseforge.com/minecraft/mc-mods/infinity-fix "Infinity Fix (Fabric)")
+Unoffical Fabric Mod port of [Infinity Fix (Fabric)](https://www.curseforge.com/minecraft/mc-mods/infinty-fix-fabric "Infinity Fix (Fabric)")
 Only Needed Server-Side
