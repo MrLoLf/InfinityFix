@@ -4,8 +4,7 @@
     "package": "mrlolf.infinityfix.mixin",
     "compatibilityLevel": "JAVA_17",
     "mixins": [
-        "MixinPlayerEntity",
-        "MixinInfinityEnchantment"
+        "MixinPlayerEntity"
     ],
     "injectors": {
         "defaultRequire": 1
