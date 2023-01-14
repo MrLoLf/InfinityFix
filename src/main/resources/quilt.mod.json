@@ -1,0 +1,37 @@
+{
+    "schema_version": 1,
+    "quilt_loader": {
+        "group": "mrlolf.infinityfix",
+        "id": "infinityfix",
+        "version": "${version}",
+        "metadata": {
+            "name": "Infinity Fix",
+            "description": "Fixes the Infinity Enchant",
+            "contributors": {
+                "Fabian Roscher": "Owner"
+            },
+            "license": "MIT",
+            "contact": {
+                "issues": "https://github.com/MrLoLf/InfinityFix/issues",
+                "sources": "https://github.com/MrLoLf/InfinityFix/"
+            },
+            "icon": "assets/infinityandmending/icon.png"
+        },
+        "intermediate_mappings": "net.fabricmc:intermediary",
+        "depends": [
+            {
+                "id": "quilt_loader",
+                "versions": ">=0.17.6-"
+            },
+            {
+                "id": "quilted_fabric_api",
+                "versions": ">=5.0.0-"
+            },
+            {
+                "id": "minecraft",
+                "versions": ">=1.18"
+            }
+        ]
+    },
+    "mixin": "infinityfix.mixins.json"
+}
