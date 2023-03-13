@@ -15,7 +15,7 @@
                 "issues": "https://github.com/MrLoLf/InfinityFix/issues",
                 "sources": "https://github.com/MrLoLf/InfinityFix/"
             },
-            "icon": "assets/infinityandmending/icon.png"
+            "icon": "assets/infinityfix/icon.png"
         },
         "intermediate_mappings": "net.fabricmc:intermediary",
         "depends": [
